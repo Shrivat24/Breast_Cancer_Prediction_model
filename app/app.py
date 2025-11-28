@@ -10,7 +10,7 @@ st.set_page_config(page_title="Breast Cancer Prediction", layout="wide")
 # -------- CONFIG: set your model filename here ----------
 # Default expects models/model.pkl relative to this file
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR.joinpath("..", "models", "breast_cancer_rf_model.pkl").resolve()  # change if needed
+MODEL_PATH = BASE_DIR.joinpath("..", "models", "model.pkl").resolve()  # change if needed
 # --------------------------------------------------------
 
 st.title("🧬 Breast Cancer Prediction Model")
